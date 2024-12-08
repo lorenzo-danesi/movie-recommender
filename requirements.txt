@@ -1,0 +1,6 @@
+\recommender_app> py -3.10 -m venv venv
+\recommender_app> .\venv\Scripts\activate
+
+(venv) \recommender_app> pip install lenskit
+(venv) \recommender_app> pip install flask
+(venv) \recommender_app> pip install pandas

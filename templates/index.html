@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Bem-vindo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="/">Filmes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNac">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Página inicial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Contato</a>
+                  </li>
+                </ul> 
+            </div>                       
+        </div>
+    </nav>
+
+    <!-- Página inicial -->
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="card shadow-lg p-5 bg-black text-white" style="width: 45rem;">
+            <div class="card-body text-justify">
+                <h2 class="card-title text-center mb-4 text-light"><strong>Bem-vindo ao meu site de recomendações </strong>👋🏻</h2>
+                <p class="text-light text-justify mb-4">
+                    Descubra filmes incríveis baseados no os usuários gostam a partir de bibliotecas de algoritmos de recomendação!
+                </p>
+                <div class="d-flex justify-content-center">
+                    <a href="/login" class="btn btn-warning mb-4">Começar</a>
+                </div>
+                <p class="mb-4">
+                    Este site utiliza algoritmos avançados de recomendação, como K-NN (<i>K-Nearest Neighbors</i>) e <i>Slope One</i>, 
+                    implementados para sugerir filmes personalizados com base no histórico de preferências de 100.000 usuários.  
+                    Os dados utilizados para as recomendações são baseados no <i>dataset</i> <strong><i>MovieLens</i></strong>, amplamente utilizado em pesquisas acadêmicas 
+                    e desenvolvimento de sistemas de recomendação. 
+                    <br> 
+                    Para saber mais, visite a 
+                    <a href="https://movielens.org/" target="_blank" class="link-warning">movielens.org</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
